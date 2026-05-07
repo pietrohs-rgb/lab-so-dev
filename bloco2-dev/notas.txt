@@ -59,9 +59,11 @@ Saída de ./soma:
 # ligador em relação a esse símbolo? 
 
 Resposta 1:
-
+O ligador resolve os símbolos indefinidos buscando-os na biblioteca padrão do C e produz o
+executável soma.
 
 # 2. Você gerou três arquivos intermediários: soma.i (pré-processado), soma.s (assembly),
 #    soma.o (objeto). Qual desses é o que o computador realmente executa?
 
 Resposta 2:
+Ele executa o ./soma produzida pelo soma.o
