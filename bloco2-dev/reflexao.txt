@@ -23,10 +23,17 @@ Por padrão, todo processo nasce com três "canais" abertos:
 #    que não mudou?
 
 Resposta 1:
+O make herdou essa lógica, mas a elevou a um nível de inteligência baseado em dependências e estados.
+O papel do "despachante" no make é cumprido pela árvore de dependências.
 
+O jobs histórico muitas vezes precisava de intervenção manual ou scripts complexos para pular etapas, o make usa a Verificação de Timestamps do sistema de arquivos.
+Para cada regra no seu Makefile, o make faz uma comparação binária.
 
 # 2. O monitor unificava "supervisor, carregador e rotinas de I/O
 #    sob uma interface textual". O que o Makefile unifica no fluxo
 #    de desenvolvimento moderno?
 
 Resposta 2:
+O Makefile atua como uma interface única para uma cadeia de ferramentas que, hoje, é muito mais fragmentada e complexa do que nos tempos do mainframe.
+O Makefile encapsula tudo sob comandos simples como make build ou make lint. Você não precisa saber as flags complexas do compilador; o Makefile as unifica em uma interface textual padronizada.
+O monitor histórico lidava com endereços físicos de memória e canais. O Makefile lida com a abstração de caminhos de sistema e variáveis de ambiente.
