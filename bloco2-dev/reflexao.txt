@@ -9,10 +9,6 @@
 # No shell moderno, qual mecanismo cumpre papel equivalente?
 
 Resposta:
-O pipe conecta a saida padrão de um processo á entrada padrão e cria um canal de dados entre programas sem argquivo intermediario.
-O redirecionamento desvia a saída para um arquivo ou lê a entrada de um arquivo. Acrescenta ao final sem apagar o conteudo existente.
-O script como job atualizado uma sequência de comandos num arquivo reproduzivel e versinável. O que o monitor executaria passo a passo agora está codificado e pode rodar sem intervenção.
-
 
 # ─────────────────────────────────────────────────────
 
