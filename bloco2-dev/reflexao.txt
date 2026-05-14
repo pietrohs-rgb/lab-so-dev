@@ -10,7 +10,10 @@
 
 Resposta:
 
-# ─────────────────────────────────────────────────────
+O shell usa números inteiros chamados File Descriptors (FD).
+
+Por padrão, todo processo nasce com três "canais" abertos:
+
 
 # ATIVIDADE 7 — Make
 
